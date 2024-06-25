@@ -4,7 +4,7 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 
 ## Features
 
-- Users can rent cars and ensure that rented cars cannot be rented again until they are returned.
+- Users can rent cars and ensure that they cannot be rented again until they are returned.
 - Different API endpoints to handle users, cars, and rentals efficiently.
 - Special API endpoints to filter cars based on various criteria.
 
@@ -22,8 +22,8 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 - phone: String
 
 ### Rental
-- car_id: Reference to Car model
-- user_id: Reference to User model
+- car_id: Reference to Car Model
+- user_id: Reference to User Model
 - rentalDate: Date
 - returnDate: Date
 
@@ -54,7 +54,7 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 
 ## Special APIs
 
-1. Get all cars with the brand 'Honda' or 'Toyota
+1. Get all cars with the brand 'Honda' or 'Toyota'
 2. Get Available Cars of a Specific Brand
 3. Get Cars that are either Rented or of a Specific Brand
 4. Get Available Cars of a Specific Brand or Rented Cars of a Specific Brand
