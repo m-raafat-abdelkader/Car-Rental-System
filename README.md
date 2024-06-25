@@ -13,7 +13,7 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 ### Car
 - **name**: String
 - **model**: String
-- **rental status**: String (available/rented)
+- **rentalStatus**: String (available/rented)
 
 ### Customer
 - **name**: String
@@ -22,10 +22,10 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 - **phone number**: String
 
 ### Rental
-- **car**: Reference to Car model
-- **customer**: Reference to Customer model
-- **rental date**: Date
-- **return date**: Date
+- **car_id**: Reference to Car model
+- **user_id**: Reference to User model
+- **rentalDate**: Date
+- **returnDate**: Date
 
 ## User APIs
 
@@ -54,7 +54,7 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 
 ## Special APIs
 
-1. **Get all cars whose Brand is ‘Honda’ and ‘Toyota’**
+1. **Get all cars whose Brand are ‘Honda’ and ‘Toyota’**
 2. **Get Available Cars of a Specific Brand**
 3. **Get Cars that are Either rented or of a Specific Brand**
-4. **Get Available Cars of Specific Brand or Rented Cars of a Specific Brand**
+4. **Get Available Cars of a Specific Brand or Rented Cars of a Specific Brand**
