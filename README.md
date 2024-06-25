@@ -54,7 +54,7 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 
 ## Special APIs
 
-1. **Get all cars whose Brand are ‘Honda’ and ‘Toyota’**
+1. **Get all cars whose brand is ‘Honda’ and ‘Toyota’**
 2. **Get Available Cars of a Specific Brand**
 3. **Get Cars that are Either rented or of a Specific Brand**
 4. **Get Available Cars of a Specific Brand or Rented Cars of a Specific Brand**
