@@ -15,11 +15,11 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 - **model**: String
 - **rentalStatus**: String (available/rented)
 
-### Customer
+### User
 - **name**: String
 - **password**: String
 - **email**: String
-- **phone number**: String
+- **phone**: String
 
 ### Rental
 - **car_id**: Reference to Car model
