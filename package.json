@@ -1,0 +1,19 @@
+{
+  "name": "mohamed-raafat---sun-wed-online-7-10---assignment-7---01142829513",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "validator": "^13.12.0"
+  }
+}
