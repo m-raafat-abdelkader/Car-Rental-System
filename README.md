@@ -36,8 +36,8 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 2. Sign in
 3. Get a specific user
 4. Get all users
-5. Update user (owner only)
-6. Delete user (owner only)
+5. Update user (owner access only)
+6. Delete user (owner access only)
 
 ## Car APIs
 
