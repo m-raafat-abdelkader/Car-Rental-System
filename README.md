@@ -10,22 +10,25 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 
 ## MongoDB Models
 
-### Car
-- name: String
-- model: String
-- rentalStatus: String (available/rented)
-
 ### User
 - name: String
 - password: String
 - email: String
 - phone: String
 
+  
+### Car
+- name: String
+- model: String
+- rentalStatus: String (available/rented)
+
+  
 ### Rental
 - car_id: Reference to Car Model
 - user_id: Reference to User Model
 - rentalDate: Date
 - returnDate: Date
+
 
 ## User APIs
 
