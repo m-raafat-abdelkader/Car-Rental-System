@@ -20,14 +20,14 @@ A comprehensive Car Rental System where users can rent cars, manage their rental
 ### Car
 - name: String
 - model: String
-- rentalStatus: String (available/rented)
+- rental status: String (available/rented)
 
   
 ### Rental
 - car_id: Reference to Car Model
 - user_id: Reference to User Model
-- rentalDate: Date
-- returnDate: Date
+- rental date: Date
+- return date: Date
 
 
 ## User APIs
