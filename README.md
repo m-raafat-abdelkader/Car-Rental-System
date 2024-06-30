@@ -1,5 +1,5 @@
 # Car Rental System
-📘 Postman Documentation: https://lnkd.in/g3d-9awY
+📘 Postman Documentation: https://documenter.getpostman.com/view/32279973/2sA3XY7yb5
 
 A comprehensive Car Rental System where users can rent cars, manage their rentals, and handle car availability.
 
